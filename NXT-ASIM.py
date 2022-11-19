@@ -128,7 +128,7 @@ asu = random.choice([m,k,h,u,b])
 #------------------[ MACHINE-SUPPORT ]---------------#
 def clear():
     os.system('clear')
-    banner()
+    print(logo)
 from time import localtime as lt
 from os import system as cmd
 ltx = int(lt()[3])
@@ -192,7 +192,7 @@ def login():
 def login_lagi334():
 	try:
 		os.system('clear')
-		banner()
+		print(logo)
 		asu = random.choice([m,k,h,b,u])
 		cookie=input(f' \x1b[1;91m\x1b[1;96m\x1b[1;92m Enter  Fresh Cookies :{asu} ')
 		data = requests.get("https://business.facebook.com/business_locations", headers = {"user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}, cookies = {"cookie":cookie}) 
@@ -216,7 +216,7 @@ def menu(my_name,my_id):
 		time.sleep(5)
 		login_lagi334()
 	os.system('clear')
-	banner()
+	print(logo)
 	ip = requests.get("https://api.ipify.org").text
 	_ASIM_(f'\x1b[1;91m┏────────────────────────┓')
 	_ASIM_(f'\x1b[1;91m│\033[47m\033[1;30mPREMIUM USER INFORMATION\033[40m\033[00m\x1b[1;91m│')
@@ -301,7 +301,7 @@ def P():
 		exit()
 	try:
 		os.system('clear')
-		banner()
+		print(logo)
 		jum = int(input(' \x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ Terget Id Limit ➣ \x1b[1;92m'))
 	except ValueError:
 		print(' \x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ \x1b[1;91mWRONG TYPE ')
@@ -352,7 +352,7 @@ class D:
 		self.id = []
 	def plerr(self):
 		os.system("clear")
-		banner()
+		print(logo)
 		try:
 			print(f' \x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ \033[47m\033[1;34m     Example: /sdcard/ASIM.txt     \033[40m\033[00m')
 			fileX = input (' \x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ Enter Your File ➣\x1b[1;93m ') 
