@@ -222,13 +222,17 @@ def menu(my_name,my_id):
 		login_lagi334()
 	os.system('clear')
 	banner()
-	
- \033[1;31m  _   ___  _______      _    ____ ___ __  __ 
- \033[1;32m | \ | \ \/ /_   _|    / \  / ___|_ _|  \/  |
- \033[1;33m |  \| |\  /  | |     / _ \ \___ \| || |\/| |
- \033[1;34m | |\  |/  \  | |    / ___ \ ___) | || |  | |
- \033[1;35m |_| \_/_/\_\ |_|   /_/   \_\____/___|_|  |_|
-
+	ip = requests.get("https://api.ipify.org").text
+	_ASIM_(f'\x1b[1;91m┏────────────────────────┓')
+	_ASIM_(f'\x1b[1;91m│\033[47m\033[1;30mPREMIUM USER INFORMATION\033[40m\033[00m\x1b[1;91m│')
+	_ASIM_(f'\x1b[1;91m┠─────────────┯──────────┛')
+	_ASIM_(f'\x1b[1;91m│\x1b[1;92mYour Name\x1b[1;91m────╂➣\x1b[1;92m '+str(ASIM_NAME))
+	_ASIM_(f'\x1b[1;91m│\x1b[1;92mYour ID Name\x1b[1;91m─╂➣\x1b[1;92m {my_name}')
+	_ASIM_(f'\x1b[1;91m│\x1b[1;92mCloning Date\x1b[1;91m─╂➣ \x1b[1;92m{ha}\x1b[1;91m/\x1b[1;92m{bu}\x1b[1;91m/\x1b[1;92m{ta}')
+	_ASIM_(f"\x1b[1;91m│\x1b[1;92mCloning Time\x1b[1;91m─╂➣ \x1b[1;92m"+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+	_ASIM_(f'\x1b[1;91m│\x1b[1;92mYour ID\x1b[1;91m──────╂➣\x1b[1;92m '+str(my_id))
+	_ASIM_(f'\x1b[1;91m│\x1b[1;92mYour IP\x1b[1;91m──────╂➣ \x1b[1;92m{ip}')
+	_ASIM_(f'\x1b[1;91m┗─────────────┛')
 	_ASIM_(f'\x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ \033[47m\033[1;34m  CRACK METHOD  \033[40m\033[00m')
 	_ASIM_(f'\x1b[1;91m[\x1b[1;92m1\x1b[1;91m]\x1b[1;92m FILE CRACK')
 	_ASIM_(f'\x1b[1;91m[\x1b[1;92m2\x1b[1;91m]\x1b[1;92m PUBLIC CRACK')
