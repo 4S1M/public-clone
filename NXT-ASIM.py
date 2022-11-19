@@ -166,7 +166,7 @@ logo = """\033[1;30m
 \033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●"""
 os.system('clear')
 print(logo)
-os.system("play-audio ASSALAMUALAIKUM_WELCOME_TO_MR_ASIM_WORLD.mp3")
+
 print(f' \x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ \033[47m\033[1;31mWhat Is Your Name\033[40m\033[00m')
 ASIM_NAME=input(f' \x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ Your Name ➣\x1b[1;96m ')
 #--------------------[ BAGIAN-MASUK ]--------------#
